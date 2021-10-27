@@ -7,7 +7,7 @@ public class Main {
         boolean diferencia = Ejercicio.compararVectoresRecurcividad(a,b);
 
         System.out.println(diferencia);*/
-       Scanner numero = new Scanner(System.in);
+       /*Scanner numero = new Scanner(System.in);
         System.out.print("introducir numero a comvertir fibonaci : ");
         int maxCount = numero.nextInt();
         numero.close();
@@ -15,8 +15,49 @@ public class Main {
         for (int i = 0; i < maxCount; i++) {
             int fibonacciNumber = Ejercicio.printFibonacci(i);
             System.out.print(" " + fibonacciNumber);
-        }
+        }*/
+        int [] vector = {2,1,6,2,7,3,4,3};
+        System.out.println(Ejercicio.maximoVector(vector));
 
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
